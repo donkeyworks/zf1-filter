@@ -1,5 +1,5 @@
 {
-    "name": "diablomedia/zendframework1-filter",
+    "name": "donkeyworks/zendframework1-filter",
     "description": "Zend Framework 1 Filter component",
     "type": "library",
     "keywords": [
@@ -12,12 +12,12 @@
     "prefer-stable": true,
     "require": {
         "php": ">=7.0.0",
-        "diablomedia/zendframework1-exception": "^1.0.0",
-        "diablomedia/zendframework1-config": "^1.0.0",
-        "diablomedia/zendframework1-loader": "^1.0.0",
-        "diablomedia/zendframework1-crypt": "^1.0.0",
-        "diablomedia/zendframework1-date": "^1.0.0",
-        "diablomedia/zendframework1-locale": "^1.0.0"
+        "donkeyworks/zendframework1-exception": "^1.0.0",
+        "donkeyworks/zendframework1-config": "^1.0.0",
+        "donkeyworks/zendframework1-loader": "^1.0.0",
+        "donkeyworks/zendframework1-crypt": "^1.0.0",
+        "donkeyworks/zendframework1-date": "^1.0.0",
+        "donkeyworks/zendframework1-locale": "^1.0.0"
     },
     "autoload": {
         "psr-0": {
@@ -72,6 +72,6 @@
         "ext-rar": "Used in the Zend_Filter_Compress_Rar filter",
         "ext-lzf": "Used in the Zend_Filter_Compress_Lzf filter",
         "pear/archive_tar": "For the Zend_Filter_Compress_Tar filter",
-        "diablomedia/zendframework1-filter-input": "Provides the separate Zend_Filter_Input component"
+        "donkeyworks/zendframework1-filter-input": "Provides the separate Zend_Filter_Input component"
     }
 }
